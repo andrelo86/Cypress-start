@@ -1,0 +1,29 @@
+{
+  "name": "cypress-start",
+  "version": "1.0.0",
+  "description": "First cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelo86/Cypress-start.git"
+  },
+  "author": "Andrelo86",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrelo86/Cypress-start/issues"
+  },
+  "homepage": "https://github.com/andrelo86/Cypress-start#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "cypress": "^7.2.0",
+    "eslint": "^7.25.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  }
+}
